@@ -13,7 +13,7 @@ const handelClick = (userId) => {
         <div className="user-style">
             <h2>Name: {name}</h2>
             <p>Email: {email}</p>
-            {/* <Link to={`/user/${id}`}>Show Detail {id}</Link> */}
+            <Link to={`/user/${id}`}>Show Detail {id}</Link>
             <button onClick={()=> handelClick(id)}> Click Me </button>
         </div>
     );
